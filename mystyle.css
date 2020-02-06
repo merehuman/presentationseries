@@ -35,25 +35,23 @@ body {
 }
 
 
-/*//image in background*/
-body, html {
+/*image in background*/
+/*body, html {
   height: 100%;
 }
 
 * {
   box-sizing: border-box;
-}
-
-.bg-image {
-  /* The image used */
-  /*background-image: url("images/presseries22.jpg");*/
+}*/
+body {
+  background-image: url("images/presseries22.jpg");
 
   /* Add the blur effect */
   filter: blur(8px);
   -webkit-filter: blur(8px);
 
   /* Full height */
-  height: 100%; 
+  height: 50%; 
 
   /* Center and scale the image nicely */
   background-position: center;
