@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+
+<div class="header" id="myHeader">
+  <marquee>community presentation series</marquee>
+</div>
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+<body>
+	<img src="images/presseries2.jpg" alt="final pres image 2"><br><br>
+</body>
+</html>
