@@ -1,6 +1,7 @@
 html {
-  font-family: 'Roboto Mono', monospace;
-  font-size: 30px
+  /*font-family: 'Roboto Mono', monospace;*/
+  font-family: Consolas,monaco,monospace; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; 
+  /*font-size: 30px*/
 }
 body {
   font-family: Consolas,monaco,monospace; font-size: 30px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; 
@@ -11,12 +12,26 @@ body {
   text-align: center;
   background: #000000;
   color: #ffffff;
-  font-family: 'Roboto Mono', monospace;
 }
 
 .marquee {
-      font-size: 30px;
+      font-size: 42px;
       color: #ffffff; 
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .content {
