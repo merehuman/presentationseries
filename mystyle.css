@@ -8,7 +8,7 @@ body {
 }
 
 .header {
-  padding: 0px 20px;
+  padding: 20px 0px;
   text-align: center;
   background: #000000;
   color: #ffffff;
@@ -46,14 +46,14 @@ body {
 }
 
 .button {
-  background-color: white; 
-  border:1.5px;
-  color: black;
-  padding: 4px 8px;
+  background-color: black; 
+  /*border: 1.5px solid;*/
+  color: white;
+  padding: 5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 12px;
+  font-size: 14px;
 }
 /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
