@@ -8,15 +8,17 @@ body {
 }
 
 .header {
-  padding: 20px 0px;
+  padding: 10px 5px;
   text-align: center;
-  background: #000000;
-  color: #ffffff;
+  background: #ffffff;
+  color: #000000;
+  filter: blur(4px);
 }
 
 .marquee {
       font-size: 30px;
       color: #ffffff; 
+
 }
 
 /* Container holding the image and the text */
