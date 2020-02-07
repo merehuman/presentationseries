@@ -2,16 +2,16 @@ html {
   font-family: 'Roboto Mono', monospace;
   font-size: 30px
 }
-/*body {
-  font-family: Consolas, monaco, monospace;
-  font-size: 30px
-}*/
+body {
+  font-family: Consolas,monaco,monospace; font-size: 30px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; 
+}
 
 .header {
   padding: 20px 40px;
   text-align: center;
   background: #000000;
   color: #ffffff;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .marquee {
