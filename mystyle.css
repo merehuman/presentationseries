@@ -1,27 +1,24 @@
 html {
   font-family: 'Roboto Mono', monospace;
-  font-size: 14px
+  font-size: 30px
 }
-body {
+/*body {
   font-family: Consolas, monaco, monospace;
-  font-size: 14px
-}
-/* Style the header */
+  font-size: 30px
+}*/
+
 .header {
-  padding: 0px 16x;
+  padding: 20px 40px;
   text-align: center;
   background: #000000;
   color: #ffffff;
-  font-family: Consolas, monaco, monospace;
 }
 
 .marquee {
-      font-size: 20px;
-      color: #ffffff;
-      font-family: Consolas, monaco, monospace;
+      font-size: 30px;
+      color: #ffffff; 
 }
 
-/* Page content */
 .content {
   padding: 16px;
 }
@@ -34,6 +31,6 @@ body {
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
+/*.sticky + .content {
   padding-top: 102px;
-}
+}*/
