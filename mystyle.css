@@ -1,7 +1,7 @@
 html {
-  font-family: Consolas,monaco,monospace; 
-  
+  font-family: Consolas,monaco,monospace;  
 }
+
 body {
   font-family: Consolas,monaco,monospace;
   font-size: 20px; 
@@ -16,10 +16,9 @@ body {
 }
 
 .marquee {
-      font-size: 30px;
+      font-size: 34px;
       color: #ffffff;
-      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4) 
-
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4); 
 }
 
 /* Container holding the image and the text */
@@ -32,7 +31,7 @@ body {
 /* Centered text */
 .centered {
   position: absolute;
-  top: 25%;
+  top: 20%;
   left: 25%;
   transform: translate(-25%, -25%);
 }
@@ -56,8 +55,9 @@ body {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
 }
+
 /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
   padding-top: 150px;
