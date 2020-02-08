@@ -10,15 +10,17 @@ body {
 .header {
   padding: 10px 5px;
   text-align: center;
-  background: #000000;
-  color: #ffffff;
-  /*filter: blur(4px);*/
+  color: #000000;
+  border:1.5px; 
+  border-style:solid; 
+  border-color:#000000; 
+  background-color: #ffffff; 
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 .marquee {
       font-size: 34px;
-      color: #ffffff;
-      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4); 
+      color: #ffffff;  
 }
 
 /* Container holding the image and the text */
