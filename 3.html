@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+
+<div class="header" id="myHeader">
+  <marquee>community presentation series</marquee>
+</div>
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+<br>
+<body>
+	<img src="images/presseries3.png" alt="final pres image 2" height="600px" align="center"style="border:1.5px; border-style:solid; border-color:#000000; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);"><br><br>
+	<a href="/" class="button">return home</a>
+</body>
+
+<style>
+  body { background-image: url("images/coco.tif"); 
+        background-repeat:no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-color: #000000;
+        z-index: 1;
+        /*filter: blur(8px);*/
+        /*-webkit-filter: blur(8px);*/
+</style>
+
+</html>
