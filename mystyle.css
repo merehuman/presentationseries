@@ -7,10 +7,15 @@ body {
   font-size: 20px; 
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .header {
   padding: 10px 5px;
   text-align: center;
   color: #000000;
+  position: fixed;
   /*border:1.5px; 
   border-style:solid; 
   border-color:#000000; */
@@ -32,7 +37,7 @@ body {
 
 /* Centered text */
 .centered {
-  position: absolute;
+  position: relative;
   top: 20%;
   left: 25%;
   transform: translate(-25%, -25%);
